@@ -1,0 +1,17 @@
+{
+  "name": "logging-service",
+  "version": "0.0.1",
+  "description": "Logging service for clients in Docker",
+  "author": "Erik Hu <erihu@cisco.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "http-status-codes": "^1.0.6",
+    "underscore": "^1.8.3"
+  }
+}
